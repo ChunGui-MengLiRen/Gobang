@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五子棋</title>
+    <link rel="stylesheet" href="五子棋.css">
+</head>
+
+<body>
+
+    <!-- 棋盘 -->
+    <div class="box">
+        <!-- 棋盘遮罩用于放置提示棋子 -->
+        <div class="promptMask"></div>
+        <!-- 棋盘遮罩用于放置棋子 -->
+        <div class="mask"></div>
+        <!-- 用于绘制棋盘网格 -->
+        <div class="board"></div>
+    </div>
+
+    <!-- 按钮 -->
+    <button class="start">开始游戏</button>
+    <button class="back">悔棋</button>
+    <button class="stepInfo">开启计步</button>
+    <button class="AI">人工智障</button>
+
+    <!-- 信息框 -->
+    <div class="messageBox">
+        <div class="text"></div>
+        <button class="confirm">确定</button>
+    </div>
+
+    <script src="五子棋.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #999;
+}
+
+.box {
+    position: relative;
+    width: 720px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+.promptMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 720px;
+    z-index: 2;
+}
+
+/* 棋盘遮罩,用于放置棋子 */
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 720px;
+    z-index: 1;
+}
+
+.board {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 720px;
+    border: 40px solid #d2a143;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+/* 开始游戏按钮 */
+
+.start {
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+
+/* 悔棋按钮 */
+
+.back {
+    position: absolute;
+    top: 550px;
+    left: 1250px;
+}
+
+.stepInfo {
+    position: absolute;
+    top: 600px;
+    left: 1250px;
+}
+
+.AI {
+    position: absolute;
+    top: 650px;
+    left: 1250px;
+}
+
+.messageBox {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 1150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #d2a143;
+}
+
+.text {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.confirm {
+    display: block;
+    margin: 40px auto 0;
+}
